@@ -1,0 +1,33 @@
+body {
+    background: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#clickButton {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px #388E3C;
+    transition: all 0.1s ease-in-out;
+}
+
+#clickButton:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px #2E7D32;
+}
